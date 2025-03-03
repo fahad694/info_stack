@@ -1,0 +1,5 @@
+<%= form_with url: "/login", method: :get do |form| %>
+  <%= form.label :email, "Search for:" %>
+  <%= form.search_field :query %>
+  <%= form.submit "Search" %>
+<% end %>
